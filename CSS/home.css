@@ -1,0 +1,260 @@
+html {
+    min-width: 100vw;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.navegacion {
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+.logo {
+background-color: #E0B973;
+max-width: 7rem;
+display: flex;
+flex-direction: column;
+border-radius: 0 0 25px 25px;
+justify-content: center;
+align-items: center;
+padding: 10px 25px;
+}
+.logo-title {
+color: #14274A;
+font-family: ui-monospace;
+font-size: x-large;
+}
+
+.logo-descripcion{
+color: #14274A;
+font-size: small;
+font-family: monospace;
+}
+
+.main-menu {
+margin-bottom: 0;
+font-family: monospace;
+font-size: xx-large;
+}
+.main-menu li {
+font-size: 0.75rem;
+list-style: none;
+display: inline;
+margin-right: 2rem;
+}
+.main-menu li a {
+color: white;
+text-decoration: none;
+}
+.main-menu li a:hover {
+text-decoration: underline;
+}
+
+.sec-home {
+display: flex;
+flex-direction: column;
+justify-content: center;
+background-image: url(../assets/principal/logo-del-hotel.png);
+color: #14274A;
+background-position: center;
+}
+.home1 {
+margin-top: 7rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding-left: 5.7rem;
+height: 250px;
+width: 350px;
+color: white;
+}
+
+.home-cta {
+font-family: sans-serif;
+font-size: xx-large;
+}
+.home-title-1{
+font-family: serif;
+font-size: 90px;
+}
+.home-title-2{
+font-family: ui-monospace;
+font-size: xx-large;
+}
+.home-descripcion {
+font-family: auto;
+}
+
+.boock-now {
+display: flex;
+justify-content: center;
+align-items: center;
+.btn-main {
+    background-color: #E0B973;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    gap: 0.5rem;
+}
+}
+
+.scrool {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 2rem;
+}
+.icon-scroll {
+color: white;
+font-size: 25px;
+}
+.icon-2 {
+color: white;
+font-size: 30px;
+padding: 1rem 2rem;
+}
+
+.text {
+padding: 2rem;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: system-ui;
+font-size: larger;
+}
+
+.sec-features, .sec-features-2 {
+max-width: 992px;
+margin: auto;
+padding-top: 2rem;
+padding-left: 5.7rem;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10rem;
+}
+.btn-feature {
+background-color: #E0B973;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0.5rem 1.5rem;
+border-radius: 0.5rem;
+border: none;
+}
+
+.feactures {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: start;
+}
+
+.img1, .img2 {
+width: 500px;
+height: 300px;
+}
+
+/*seccion de testimonios*/
+
+.sec-testimonios {
+padding: 2rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.testimonial {
+display: flex;
+gap: 1rem;
+}
+
+.btn1 {
+background-color: #E0B973;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0.1rem 0.5rem;
+border-radius: 10px;
+border: none;
+}
+.btn2 {
+background-color: #E0B973;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0.1rem 0.5rem;
+border-radius: 10px;
+border: none;
+}
+
+/*Fin*/
+
+
+.sec-footer {
+display: flex;
+align-items: center;
+justify-content: space-around;
+padding: 2rem 5.7rem;
+background-color: #14274A; 
+}
+.grupo71 {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+width: 300px;
+color: white;
+}
+
+.condiciones {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 300px;
+color: white;
+}
+
+.grupo25 {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 300px;
+color: white;
+}
+.icono {
+    padding-left: 0.5rem;
+}
+.g-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grupo26 {
+display: flex;
+flex-direction: row;
+width: 300px;
+color: white;
+}
+
+.btn-email {
+background-color: #E0B973;
+color: #14274A;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0.5rem 1.5rem;
+border-radius: 0.5rem;
+border: none;
+}

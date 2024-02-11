@@ -1,0 +1,264 @@
+html {
+    min-width: 100vw;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.navegacion {
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+.logo {
+background-color: #E0B973;
+max-width: 7rem;
+display: flex;
+flex-direction: column;
+border-radius: 0 0 25px 25px;
+justify-content: center;
+align-items: center;
+padding: 10px 25px;
+}
+.logo-title {
+color: #14274A;
+font-family: ui-monospace;
+font-size: x-large;
+}
+
+.logo-descripcion{
+color: #14274A;
+font-size: small;
+font-family: monospace;
+}
+
+.main-menu {
+margin-bottom: 0;
+font-family: monospace;
+font-size: xx-large;
+}
+.main-menu li {
+font-size: 0.75rem;
+list-style: none;
+display: inline;
+margin-right: 2rem;
+}
+.main-menu li a {
+color: white;
+text-decoration: none;
+}
+.main-menu li a:hover {
+text-decoration: underline;
+}
+
+.sec-home {
+display: flex;
+flex-direction: column;
+justify-content: center;
+background-color: #14274A;
+background-position: center;
+}
+.home1 {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 175px;
+color: white;
+}
+
+
+
+.grupo82 {
+padding: 2rem  7rem 0 7rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center; 
+}
+.title54 {
+    font-family: auto;
+} 
+.text54 {
+    font-family: system-ui;
+    font-size: larger;
+}
+
+.grupo80 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 992px;
+    margin: auto;
+    padding: 3rem;
+}
+.grupo80 .grupo35 {
+    flex: 1;
+}
+.grupo35 .mapa {
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+/*seccion footer(parte final)*/
+.sec-footer {
+display: flex;
+align-items: center;
+justify-content: space-around;
+padding: 2rem 5.7rem;
+background-color: #14274A; 
+}
+.grupo71 {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+width: 300px;
+color: white;
+}
+
+.condiciones {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 300px;
+color: white;
+}
+
+.grupo25 {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 300px;
+color: white;
+}
+.icono {
+    padding-left: 0.5rem;
+}
+.g-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grupo26 {
+display: flex;
+flex-direction: row;
+width: 300px;
+color: white;
+}
+
+.btn-email {
+    background-color: #E0B973;
+    color: #14274A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+/*fin footer*/
+
+
+/* formulario*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+.container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 350px;
+    font-size: small;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label span {
+    font-weight: 700;
+}
+
+.section-inputs label input {
+    width: 90%;
+    background-color: #f3f3f4;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+}
+label input {
+    width: 90%;
+    background-color: #f3f3f4;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+    transition: background-color 0.2s, border 0.2s, box-shadow 0.2s;
+}
+textarea {
+    width: 90%;
+    background-color: #f3f3f4;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+    transition: background-color 0.2s, border 0.2s, box-shadow 0.2s;
+} textarea:hover {
+    background-color: white;
+    border: solid 1px #f3f3f4;
+    box-shadow: 0 0 4px #eb50ff4f;
+} textarea:focus {
+    background-color: white;
+    border: solid 1px #f3f3f4;
+    box-shadow: 0 0 4px #eb50ff4f;
+}
+
+label input:hover {
+    background-color: white;
+    border: solid 1px #f3f3f4;
+    box-shadow: 0 0 4px #eb50ff4f;
+}
+label input:focus {
+    background-color: white;
+    border: solid 1px #f3f3f4;
+    box-shadow: 0 0 4px #eb50ff4f;
+}
+
+
+.submit-btn {
+    width: 50%;
+    background-color: #E0B973;
+    color: white;
+    font-weight: 500;
+    font-size: 14pt;
+    text-align: center;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    opacity: 0.75;
+}
+
+/* fin formulario
